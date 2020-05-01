@@ -13,6 +13,7 @@ import React from "react";
 import theme from "../theme";
 
 import "../../public/styles/index.scss";
+import Link from "next/link";
 
 export default class MyApp extends App {
   componentDidMount() {
@@ -40,7 +41,11 @@ export default class MyApp extends App {
             <IconButton edge="start" color="inherit" aria-label="menu">
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6">Microphone Shop</Typography>
+            <Typography variant="h6">
+              <Link href="/">
+                <a>Microphone Shop</a>
+              </Link>
+            </Typography>
           </Toolbar>
         </AppBar>
         <ThemeProvider theme={theme}>
