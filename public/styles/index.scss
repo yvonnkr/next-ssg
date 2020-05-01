@@ -1,0 +1,22 @@
+$main-blue:#14293a;
+$main-orange:#c75000;
+
+body {
+    box-sizing: border-box;
+}
+
+.my-navbar {
+    // background-color: $main-blue !important;
+    background-color: $main-orange !important;
+}
+
+.my-container {
+    a {
+        text-decoration: none;
+    }
+
+}
+
+.my-content {
+    color: $main-orange;
+}
